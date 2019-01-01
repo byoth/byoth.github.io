@@ -1,0 +1,23 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: background-color 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition:         background-color 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#Title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: "Work Sans";
+  font-size: 50pt;
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+  -webkit-transition: color 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition:         color 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
